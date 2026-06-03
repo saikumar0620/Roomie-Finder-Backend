@@ -1,0 +1,29 @@
+{
+  "name": "roomie-backend",
+  "version": "0.0.1",
+  "description": "this is the roomie finder backend project",
+  "keywords": [
+    "node",
+    "express",
+    "drizzle",
+    "postgresql",
+    "http"
+  ],
+  "license": "ISC",
+  "author": "saikumar",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " node src/index.js ",
+    "build": "npm install",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
